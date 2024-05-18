@@ -9,7 +9,7 @@ def load_model(filepath):
 
 st.title("Water Quality Prediction")
 
-model = load_model('C:/Users/robvi/Downloads/streamlit/model (1).h5')
+model = load_model('model (1).h5')
 
 col1, col2, col3 = st.columns(3)
 
